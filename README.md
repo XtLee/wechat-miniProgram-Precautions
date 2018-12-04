@@ -18,3 +18,5 @@
   width: 50rpx !important;
   height: 50rpx !important;
 }
+
+3、canvas生成图片大小是根据当前canvas大小来设定的，如果canvas的高度是不固定的，最好在一开始就设置好canvas的高度，否则生成的图片可能会被拉伸；
