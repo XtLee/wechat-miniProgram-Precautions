@@ -20,3 +20,13 @@
 }
 
 3、canvas生成图片大小是根据当前canvas大小来设定的，如果canvas的高度是不固定的，最好在一开始就设置好canvas的高度，否则生成的图片可能会被拉伸；
+
+4、控制多行文本超出显示省略号：
+/** 块级元素内多个行内元素/多行文本 **/
+.line {
+ text-overflow:ellipsis;
+ overflow:hidden;
+ display:-webkit-box; /** 必要 **/
+ -webkit-line-clamp:2; /** 这个数字是设置要显示省略号的行数 **/
+ -webkit-box-orient:vertical;
+}
