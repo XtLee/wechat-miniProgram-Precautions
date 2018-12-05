@@ -30,3 +30,5 @@
  -webkit-line-clamp:2; /** 这个数字是设置要显示省略号的行数 **/
  -webkit-box-orient:vertical;
 }
+
+5、text组件使用三元运算控制style的color字段无效，默认选择false结果。可将色值提前设置为变量引用。
