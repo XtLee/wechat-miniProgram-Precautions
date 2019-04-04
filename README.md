@@ -38,3 +38,5 @@
 7、小程序使用textarea组件时，回车展示为\r\n，但是在浏览器内有时会展示为\n。
 
 8、小程序使用TS时会报`Cannot find global type 'CallableFunction' `和`Cannot find global type 'NewableFunction' `。解决办法为到`node_modules`路径下的`TypeScript`包的`bin`目录下，`lib.es5.d.ts`文件里面把这两个类型的`Interface`拷贝到，小程序`typing`目录下的`lib.wa.es6.d.ts`里面。
+
+9、IOS不支持`display: flow-root;`可用`overflow: hidden;`产生BFC；
