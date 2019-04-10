@@ -42,3 +42,5 @@
 9、IOS不支持`display: flow-root;`可用`overflow: hidden;`产生BFC；
 
 10、IOS上有时网络图片加修饰后图片加载失败，可在图片组件的`binderror`里将图片地址更新一次；
+
+11、在`setData`时，key和value相同时，对value进行任何操作都会导致编译错误。解决方式为value不要和key重名，使用其他名称或者加上`this`的前缀；
