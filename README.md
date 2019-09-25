@@ -46,3 +46,5 @@
 11、在`setData`时，key和value相同时，对value进行任何操作都会导致编译错误。解决方式为value不要和key重名，使用其他名称或者加上`this`的前缀；
 
 12、微信小程序不支持`text-align: justify-all;`属性。文本两端对齐的最好解决办法为：将文本拆分为单独的块，使用flex布局解决；
+
+13、微信小程序单行文本两端对齐支持：`display: inline-block; width: 120rpx; text-align: justify; text-align-last: justify;` 这种写法。
