@@ -48,3 +48,5 @@
 12、微信小程序不支持`text-align: justify-all;`属性。文本两端对齐的最好解决办法为：将文本拆分为单独的块，使用flex布局解决；
 
 13、微信小程序单行文本两端对齐支持：`display: inline-block; width: 120rpx; text-align: justify; text-align-last: justify;` 这种写法。
+
+14、微信小程序阻止页面滚动可以监听`catchtouchmove`事件。必须要给一个空方法，不然会报错；
