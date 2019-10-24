@@ -50,3 +50,5 @@
 13、微信小程序单行文本两端对齐支持：`display: inline-block; width: 120rpx; text-align: justify; text-align-last: justify;` 这种写法。
 
 14、微信小程序阻止页面滚动可以监听`catchtouchmove`事件。必须要给一个空方法，不然会报错；
+
+15、自定义组件生命周期触发除了一开始页面载入时，使用`wx:if`控制显示隐藏时也会触发；
